@@ -109,7 +109,7 @@ function FarmerIllustration() {
 
 const divisions = [
   { name: "Aquaculture", to: "/aquaculture", blurb: "Water treatments, minerals and health products for fish and shrimp ponds, hatcheries and grow-out farms.",
-    imgSrc: "https://images.unsplash.com/photo-1611042553365-9b101441c135?q=60&w=480&auto=format&fit=crop",
+    imgSrc: "https://images.unsplash.com/photo-1700573231019-95a6ed8283d3?q=60&w=480&auto=format&fit=crop",
     tag: "Ponds · Hatcheries · Farms", tagColor: "var(--color-sky-700)", tagBg: "var(--color-sky-50)" },
   { name: "Agriculture", to: "/agriculture", blurb: "Soil conditioners and crop inputs to improve yield, plant health and resilience across seasons.",
     imgSrc: "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?q=60&w=480&auto=format&fit=crop",
