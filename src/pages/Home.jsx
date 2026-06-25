@@ -116,7 +116,7 @@ const divisions = [
     tag: "Soil · Crops · Yield", tagColor: "var(--color-leaf-700)", tagBg: "var(--color-leaf-50)" },
   { name: "Pharmaceutical", to: "/pharmaceutical", blurb: "Veterinary and health formulations to support animal welfare and production performance.",
     imgSrc: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?q=60&w=480&auto=format&fit=crop",
-    tag: "Animal Health · Formulations", tagColor: "#5B4BA8", tagBg: "#F4F1FF" },
+    tag: "Animal Health/Human Health · Formulations", tagColor: "#5B4BA8", tagBg: "#F4F1FF" },
 ];
 
 const values = [
