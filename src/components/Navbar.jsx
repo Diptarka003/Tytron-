@@ -14,13 +14,12 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 bg-white border-b" style={{ borderColor: "var(--color-ink-100)" }}>
       <div className="max-w-6xl mx-auto px-4 md:px-8 h-16 flex items-center justify-between gap-3">
         <Link to="/" className="flex items-center gap-2.5 min-w-0" onClick={() => setOpen(false)}>
-          <span className="w-8 h-8 rounded-full flex items-center justify-center font-bold text-white text-sm shrink-0"
-            style={{ background: "var(--color-leaf-700)" }}>T</span>
-          <span className="font-display text-xl truncate" style={{ color: "var(--color-ink-900)" }}>Tytron</span>
-          <span className="hidden sm:block text-xs font-medium px-2 py-0.5 rounded shrink-0"
+        <img src="/logo-icon-transparent.png" alt="Tytron Biotech LLP" className="h-9 w-auto shrink-0" />
+        <span className="font-display text-xl truncate" style={{ color: "var(--color-ink-900)" }}>Tytron</span>
+        <span className="hidden sm:block text-xs font-medium px-2 py-0.5 rounded shrink-0"
             style={{ background: "var(--color-leaf-50)", color: "var(--color-leaf-700)", border: "1px solid var(--color-leaf-100)" }}>
             Biotech LLP
-          </span>
+        </span>
         </Link>
 
         <nav className="hidden lg:flex items-center gap-8 shrink-0">

@@ -5,9 +5,8 @@ export default function Footer() {
     <footer style={{ background: "var(--color-leaf-900)", color: "rgba(255,255,255,0.75)" }}>
       <div className="max-w-6xl mx-auto px-4 md:px-8 py-8 flex flex-col sm:flex-row items-center justify-between gap-5">
         <Link to="/" className="flex items-center gap-2.5">
-          <span className="w-7 h-7 rounded-full flex items-center justify-center font-bold text-white text-sm"
-            style={{ background: "var(--color-leaf-600)" }}>T</span>
-          <span className="font-display text-white text-[17px]">Tytron Biotech LLP</span>
+        <img src="/logo-icon-transparent.png" alt="Tytron Biotech LLP" className="h-8 w-auto shrink-0" />
+        <span className="font-display text-white text-[17px]">Tytron Biotech LLP</span>
         </Link>
 
         <nav className="flex flex-wrap items-center justify-center gap-x-5 gap-y-1 text-[13px]">
